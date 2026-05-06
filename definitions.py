@@ -6,10 +6,10 @@ def get_definition_category(approach_name):
     # Example: "The Turing Test" -> "Act Humanly"
     
     mapping = {
-        "Turing Test": "",
-        "Laws of Thought": "",
-        "Cognitive Modeling": "",
-        "Rational Agent": ""
+        "Turing Test": "Act Humanly",
+        "Laws of Thought": "Think Rationally",
+        "Cognitive Modeling": "Think Humanly",
+        "Rational Agent": "Act Rationally"
     }
     
     return mapping.get(approach_name, "Unknown")
